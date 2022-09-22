@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+.f-space-around{
+    justify-content: space-around;
+}
+.f-space-between{
+    justify-content: space-between;
+   
+}
+.width60{
+    width: 60%;
+    margin: 0 auto;
+}
+.width30{
+    width: 30%;
+    
+}
+.width70{
+    width: 70%;
+    
+}
+header{
+    
+}
+nav{
+    margin: 0 auto;
+    height: 60px;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+}
+ul{
+    list-style: none;
+    
+}
+.img{
+    width: 150px;
+}
+nav :nth-child(1){
+    align-items: center;
+}
+.btnheader{
+    border: 0cm;
+    background-color: rgb(30, 79, 238);
+    color: white;
+    padding: 5px 10px;
+}
+h1{
+    font-size: 5em;
+}
+.margin10px{
+    margin: 10px;
+}
+.margin20pxbottom{
+    margin-bottom: 20px;
+}
+.width70 > div > img{
+    max-height: 100%;
+    max-width: 100%;
+}
+header{
+    background-color: lightblue;
+}
