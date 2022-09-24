@@ -19,6 +19,7 @@
 .flexcol{
     display: flex;
     flex-direction: column;
+    
 }
 .f-space-around{
     justify-content: space-around;
@@ -31,17 +32,21 @@
     width: 60%;
     margin: 0 auto;
 }
+.width40{
+    width: 40%;
+    
+}
 .width30{
     width: 30%;
-    
 }
 .width70{
     width: 70%;
     
 }
-header{
-    
+.margin0auto{
+    margin: 0 auto;
 }
+
 nav{
     margin: 0 auto;
     height: 60px;
@@ -68,6 +73,11 @@ nav :nth-child(1){
 }
 h1{
     font-size: 5em;
+    margin-top: 80px;
+}
+.arrow-down{
+    margin-top: 180px;
+    font-size: 4em;
 }
 .margin10px{
     margin: 10px;
@@ -81,4 +91,63 @@ h1{
 }
 header{
     background-color: lightblue;
+}
+main{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+section1main > div > h2{
+    padding-bottom: 40px;
+}
+
+.scheda{
+    flex-basis: 32% ;
+    margin: auto;
+    border: 1px solid black;
+    height: 850px;
+}
+.type-plan{
+    margin-bottom: 10px;
+    
+    
+    text-align: center;
+}
+.container-info-plan{
+    padding-top: 30px;
+    border-top: 1px solid black;
+}
+.info-plan{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.margin50pxtop{
+    margin-top: 50px;
+}
+.margin20pxtop{
+    margin-top: 20px;
+}
+.btn-info-plan{
+    border: 0cm;
+    background-color: rgb(30, 79, 238);
+    color: white;
+    padding: 10px 20px;
+    
+
+}
+.container-btn-info-plan{
+    margin: 0 auto;
+}
+hr{
+    width: 20%;
+}
+.list-plan-bottom{
+    margin-bottom: 150px;
+}
+.text-indent{
+    text-indent:-20px ;
+}
+.display-inline{
+    display: inline;
 }
