@@ -11,6 +11,9 @@
     display: table;
     clear: both;
 }
+.flex{
+    display: flex;
+}
 .flexrow{
     display: flex;
     flex-direction: row;
@@ -41,7 +44,7 @@
 }
 .width70{
     width: 70%;
-    
+    margin: auto;
 }
 .margin0auto{
     margin: 0 auto;
@@ -75,6 +78,12 @@ h1{
     font-size: 5em;
     margin-top: 80px;
 }
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
 .arrow-down{
     margin-top: 180px;
     font-size: 4em;
@@ -102,7 +111,7 @@ section1main > div > h2{
 }
 
 .scheda{
-    flex-basis: 26% ;
+    flex-basis: 32% ;
     margin: auto;
     border: 1px solid black;
     height: 850px;
@@ -152,7 +161,7 @@ hr{
     display: inline;
 }
 .scheda-team-bottom{
-    width: 93%;
+    width: 100%;
     margin: auto;
     margin-top: 50px;
     border: 1px solid black;
@@ -165,3 +174,66 @@ hr{
 .check-color-blue{
     color: blue;
 }
+
+.partner-section{
+    width: 93%;
+    margin: auto;
+}
+
+.width50-partner > img{
+    width: 50%;
+    
+}.width70-partner{
+    width: 70%;
+    
+}
+.width93{
+    width: 93%;
+    margin: auto;
+}
+.width30 > img{
+    width: 100%;
+}
+.container-business{
+    flex-wrap: wrap;
+}
+section3main > div > h2{
+    width: 50%;
+}
+.box{
+    
+    width: calc(100%/2) ;
+    height: calc(100vw/6);
+}
+.big-box{
+    width: calc(100%) ;
+    height: calc(100vw/3);
+}
+.box-container{
+    flex-wrap: wrap;
+    width: 33.33%;
+    
+}
+.bg-red{
+    background-color: red;
+    align-items: center;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-maroon{
+    background-color: maroon;
+}
+.bg-lightblue{
+    background-color: lightskyblue;
+}
+.bg-gray{
+    background-color: gray;
+}
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+.designit > img{
+    width: 50%;
+}
+
