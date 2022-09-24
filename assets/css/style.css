@@ -102,7 +102,7 @@ section1main > div > h2{
 }
 
 .scheda{
-    flex-basis: 32% ;
+    flex-basis: 26% ;
     margin: auto;
     border: 1px solid black;
     height: 850px;
@@ -150,4 +150,18 @@ hr{
 }
 .display-inline{
     display: inline;
+}
+.scheda-team-bottom{
+    width: 93%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    height: 220px;
+}
+.info-plan-bottom{
+    width: 90%;
+    margin: 0 auto;
+}
+.check-color-blue{
+    color: blue;
 }
