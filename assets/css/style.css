@@ -70,7 +70,7 @@ nav :nth-child(1){
 }
 .btnheader{
     border: 0cm;
-    background-color: rgb(30, 79, 238);
+    background-color: #0062fe;
     color: white;
     padding: 5px 10px;
 }
@@ -99,7 +99,7 @@ h3{
     max-width: 100%;
 }
 header{
-    background-color: lightblue;
+    background-color: #b4d0e6;
 }
 main{
     width: 60%;
@@ -139,7 +139,7 @@ section1main > div > h2{
 }
 .btn-info-plan{
     border: 0cm;
-    background-color: rgb(30, 79, 238);
+    background-color: #0061fe;
     color: white;
     padding: 10px 20px;
     
@@ -208,6 +208,8 @@ section3main > div > h2{
 .big-box{
     width: calc(100%) ;
     height: calc(100vw/3);
+    padding: 10%;
+    background-color: #f5f5f5;
 }
 .box-container{
     flex-wrap: wrap;
@@ -215,25 +217,84 @@ section3main > div > h2{
     
 }
 .bg-red{
-    background-color: red;
+    background-color: rgb(254,28,29);
     align-items: center;
 }
 .bg-blue{
     background-color: blue;
 }
 .bg-maroon{
-    background-color: maroon;
+    background-color: rgb(98,8,43);
 }
 .bg-lightblue{
-    background-color: lightskyblue;
+    background-color: #0193ce;
+}
+.bg-azzurro{
+    background-color: #b4d0e6;
 }
 .bg-gray{
     background-color: gray;
 }
 .bg-lightgreen{
-    background-color: lightgreen;
+    background-color: rgb(162,211,155);
+}
+.bg-yellow{
+    background-color: yellow;
 }
 .designit > img{
     width: 50%;
+    
+    
+}
+.florida > img{
+height: fit-content;
+padding-top: 50%;
 }
 
+.color-white-svg{
+    color: white;
+}
+.bottom-logos{
+    width: calc(100%) ;
+    height: calc(100vw/8);
+    background-color: #b4d0e6;
+}
+.bottom-logos > div{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-left: 14%;
+}
+.width48{
+    width: 60%;
+    margin: auto;
+    color: #5f092e;
+}
+.btnbottom{
+    border: 0cm;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 40px;
+}
+.divider-faq{
+    width: 100%;
+}
+.padding-right50px{
+    padding-right: 50px;
+}
+.margin100pxbottom{
+    margin-bottom: 100px;
+}
+footer{
+    margin-top: 200px;
+    background-color: black;
+}
+.li-footer{
+    margin: 10px;
+}
+.color-white{
+    color: white;
+}
+.text-indent-footer{
+    text-indent: -10px;
+}
