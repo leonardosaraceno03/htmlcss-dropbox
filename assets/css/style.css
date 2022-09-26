@@ -298,3 +298,27 @@ footer{
 .text-indent-footer{
     text-indent: -10px;
 }
+.hr-footer{
+    width: 5%;
+    margin-left: 15%;
+}
+.language{
+    color: white;
+    margin-left: 15%;
+}
+/* Hover */
+.btnbottom:hover{
+    background-color: blue;
+    color: white;
+}
+.btnheader:hover{
+    background-color: white;
+    color: blue;
+}
+.hover-li:hover{
+    color: #0061fe;
+}
+.btn-info-plan:hover{
+    background-color: white;
+    color: #0061fe;
+}
